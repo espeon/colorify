@@ -1,0 +1,16 @@
+[package]
+name = "colorify"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "colorify"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+colored = "2.0"
+serde = { version = "1.0", features = ["derive"] }
+anyhow = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+fastembed = "5.1.0"
