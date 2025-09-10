@@ -8,6 +8,11 @@ makes color palettes from vibes
 cargo build --release
 ```
 
+or if you wanna install:
+```
+cargo install --path .
+```
+
 ## usage
 
 ```
@@ -25,14 +30,14 @@ uses ai embeddings to understand what you mean when you say stuff like "peaceful
 
 ## examples
 
-- "tropical beach sunset" → gold, coral, hot pink vibes  
+- "tropical beach sunset" → gold, coral, hot pink vibes
 - "cyberpunk city" → neon crimson and cyan energy
 - "cozy autumn cabin" → warm browns and oranges
 
 ## flags
 
 - `-i` interactive mode
-- `-b` show as color bar  
+- `-b` show as color bar
 - `-n 8` how many colors
 - `--examples` see more ideas
 
